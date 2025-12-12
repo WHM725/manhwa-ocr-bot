@@ -1,0 +1,16 @@
+{
+  "build": {
+    "aptPackages": [
+      "build-essential",
+      "libcairo2-dev",
+      "libpango1.0-dev",
+      "libjpeg-dev",
+      "libgif-dev",
+      "librsvg2-dev",
+      "libpixman-1-dev"
+    ]
+  },
+  "deploy": {
+    "startCommand": "npm start"
+  }
+}
