@@ -1,0 +1,22 @@
+{
+  "name": "manhwa-ocr-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Manhwa OCR",
+  "main": "dist/bot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/bot.ts",
+    "dev": "ts-node src/bot.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "@google/genai": "^1.19.0",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2"
+  }
+}
